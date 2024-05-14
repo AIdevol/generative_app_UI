@@ -12,7 +12,7 @@ To run this project, ensure you have Flutter installed on your local machine. Fo
 
 ### Showcase
 
-<img src="assets/AndroidEmulator-Pixel_3_Edited_API_30_55542024-05-1420-11-26-ezgif.com-video-to-gif-converter.gif" alt="App Showcase" height="250">
+<img src="assets/AndroidEmulator-Pixel_3_Edited_API_30_55542024-05-1420-11-26-ezgif.com-video-to-gif-converter.gif" alt="App Showcase" height="400">
 
 ### Resources
 
