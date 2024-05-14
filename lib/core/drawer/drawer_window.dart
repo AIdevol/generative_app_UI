@@ -12,12 +12,11 @@ class DrawerWidget extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(
         top: 30,
-        right: screenWidth *
-            0.05, // Adjust the right padding according to your preference
+        right: screenWidth * 0.001,
       ),
       child: Container(
         alignment: Alignment.centerLeft,
-        width: screenWidth * 0.2, // Adjust the width according to screen size
+        width: screenWidth * 0.2,
         decoration: BoxDecoration(
           color: const Color(0xfff242728),
           borderRadius: BorderRadius.circular(25),
@@ -28,7 +27,7 @@ class DrawerWidget extends StatelessWidget {
           children: [
             CircleAvatar(
               backgroundImage: AssetImage(profile),
-              radius: screenWidth * 0.05, // Adjust size based on screen width
+              radius: screenWidth * 0.05,
             ),
             SizedBox(height: screenHeight * 0.01),
             Divider(
@@ -56,12 +55,10 @@ class DrawerWidget extends StatelessWidget {
 
   Widget _buildIconButton(IconData icon, double screenWidth) {
     return IconButton(
-      onPressed: () {
-        // Add your onPressed logic here
-      },
+      onPressed: () {},
       icon: Icon(
         icon,
-        size: screenWidth * 0.1, // Adjust icon size based on screen width
+        size: screenWidth * 0.1,
       ),
     );
   }
